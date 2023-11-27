@@ -74,6 +74,31 @@ paths:
         - token:
             - write:apiKey
             - read:apiKey
+  /geoquery:
+    post:
+      tags:
+        - auth
+      summary: Get Lokasi dari titik kordinat
+      description: Login and Get User Token
+      operationId: authService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Auth'
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '405':
+          description: Invalid input
+      security:
+        - token:
+            - write:apiKey
+            - read:apiKey
 components:
   schemas:
     Peta:
