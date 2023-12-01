@@ -2,3 +2,6 @@
 Swagger for Github Pages. Langsung Fork saja di repo masing masing. Kemudian tinggal edit file openapi.yaml
 
 Apabila sebelumnya menggunakan PostMan bisa di convert menggunakan [Swagify](https://swagify.io/convert/)
+
+Untuk selanjutnya bisa juga diedit menggunakan [editor.swagger.io](https://editor.swagger.io/) dengan import URL
+![image](https://github.com/jscroot/swagger/assets/11188109/d5cc9ae1-e73d-4eaa-929d-dab1f74fe2cd)
